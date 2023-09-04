@@ -34,3 +34,81 @@ body {
     height: 500px;
     object-fit: cover;
 }
+
+@media only screen and (min-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url(dgImg/catbackground.jpg);
+    }
+    
+    .header {
+        width: 100vw;
+        height: 400px;
+    }
+    
+    .headerImg {
+        width: 100vw;
+        opacity: 60%;
+        height: 400px;
+    }
+    
+    .imgContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 500px;
+        height: 500px;
+        margin-left: 500px;
+        margin-bottom: 50PX;
+        text-align: center;
+    }
+    
+    .imgContainer img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url(dgImg/catbackground.jpg);
+    }
+    
+    .header {
+        width: 100vw;
+        height: 400px;
+    }
+    
+    .headerImg {
+        width: 100vw;
+        opacity: 60%;
+        height: 400px;
+    }
+    
+    .imgContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 500px;
+        height: 500px;
+        margin-left: 500px;
+        margin-bottom: 50PX;
+        text-align: center;
+    }
+    
+    .imgContainer img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
+}
