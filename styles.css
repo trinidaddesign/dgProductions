@@ -1,7 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rock+Salt&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rock Salt' , cursive;
+    list-style-type: none;
 }
 
 body {
@@ -16,7 +22,8 @@ body {
 }
 
 .leftDiv {
-    border: 1px dotted pink;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 25%;
 }
@@ -26,6 +33,11 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.list {
+    border: 1px solid black;
+}
+
 .rightDiv {
     background-image: linear-gradient( pink, lime);
     height: 100vh;
@@ -38,13 +50,13 @@ body {
 .header {
     height: 400px;
     width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+
 }
 
-.header img {
-    object-fit: cover;
-    width: 100%;
-    height: 400px;
-}
+
 
 .imageContainer {
     display: flex;
@@ -73,9 +85,5 @@ body {
         height: 400px;
         width: 100%;
     }
-    .header img {
-        object-fit: cover;
-        width: 100%;
-        height: 200px;
-    }
+    
 }
