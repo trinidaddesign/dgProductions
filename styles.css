@@ -26,18 +26,27 @@ body {
     flex-direction: column;
     height: 100vh;
     width: 25%;
-}
-
-.leftImage {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+    background-image: url(dgImg/FB_IMG_1694723481551.jpg);
+    background-size: cover;
+    justify-content: center;
 }
 
 .list {
+    display: flex;
+    background-color: transparent black;
+    color: red;
     border: 1px solid black;
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
 }
 
+button {
+    background:none;
+    border: none;
+    color: red;
+}
 .rightDiv {
     background-image: linear-gradient( pink, lime);
     height: 100vh;
