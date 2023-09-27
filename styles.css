@@ -15,7 +15,7 @@
     display: grid;
     grid-template-columns: minmax(100px, 1fr) minmax(300px, 3fr) minmax(100px, 1fr);
     grid-template-rows: 150px 100px minmax(200px, 450px) 10px minmax(200px, 450px) 
-    10px minmax(200px, 450px) 10px minmax(200px, 450px) 10px minmax(200px, 450px) 10px;
+    10px minmax(200px, 450px) 10px minmax(200px, 450px) 10px minmax(200px, 450px) 20px;
     grid-auto-rows: 1fr;
     background-color: rgba(245, 245, 245, 0.651);
     min-width: 500px;
@@ -66,10 +66,6 @@ button {
     height: 450px;
 }
 
-.imgText {
-    border: 1px solid blue;
-}
-
 .images3 {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -102,4 +98,13 @@ button {
 img {
     width: 500px;
     height: 450px;
+}
+
+.footer {
+    grid-row-start: 12;
+    grid-column: span 3;
+    background-color: rgba(245, 245, 245, 0.651) ;
+    text-align: center;
+    height: 20px;
+    font-size: x-small;
 }
