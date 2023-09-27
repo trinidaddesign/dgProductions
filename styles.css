@@ -38,15 +38,14 @@
 }
 
 button {
-    width: 100px;
-    height: 100px;
-    background: none;
+    width: 75px;
+    height: 75px;
+    background: url(dgImg/instaLogo.png);
+    background-size: cover;
     border: none;
     font-size: x-large;
 }
-p {
-    padding-top: 30px;
-}
+
 .images1 {
     grid-column-start: 2;
     grid-column-end: 3;
