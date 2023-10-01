@@ -1,8 +1,4 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rock+Salt&family=Rye&display=swap');
-
-
 
 * {
     margin: 0;
@@ -26,7 +22,7 @@
     grid-column-end: 4;
     text-align: center;
     align-self: center;
-    font-size: 100px;
+    font-size: 50px;
     text-wrap: wrap;
 }
 
@@ -34,13 +30,13 @@
     grid-column-start: 2;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 
 }
 
 button {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     background: url(dgImg/instaLogo.png);
     background-size: cover;
     border: none;
