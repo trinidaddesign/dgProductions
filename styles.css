@@ -14,8 +14,7 @@
 .container {
     display: grid;
     grid-template-columns: minmax(100px, 1fr) minmax(300px, 3fr) minmax(100px, 1fr);
-    grid-template-rows: 150px 100px minmax(200px, 450px) minmax(200px, 450px) 
-    minmax(200px, 450px) minmax(200px, 450px) minmax(200px, 450px) minmax(200px, 450px) 20px;
+    grid-template-rows: 150px 100px repeat(6, minmax(200px, 450px)) 20px;
     background-color: rgba(245, 245, 245, 0.651);
     min-width: 500px;
     row-gap: 10px;
