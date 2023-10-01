@@ -1,12 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rock+Salt&family=Rye&display=swap');
+
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rock Salt' , cursive;
+    font-family: 'Rye' , cursive;
     list-style-type: none;
 }
 
@@ -15,8 +17,7 @@
     display: grid;
     grid-template-columns: minmax(100px, 1fr) minmax(300px, 3fr) minmax(100px, 1fr);
     grid-template-rows: 150px 100px repeat(6, minmax(200px, 450px)) 20px;
-    background-color: rgba(245, 245, 245, 0.651);
-    min-width: 500px;
+    background-color: rgba(245, 245, 245, 0.274);
     row-gap: 10px;
 }
 
@@ -25,7 +26,8 @@
     grid-column-end: 4;
     text-align: center;
     align-self: center;
-    font-size: xx-large;
+    font-size: 100px;
+    text-wrap: wrap;
 }
 
 .links {
@@ -52,6 +54,8 @@ button {
     align-self: center;
     width: 450px;
     height: 450px;
+    box-shadow: 8px 5px 5px rgb(34, 34, 34);
+    border-radius: 10px;
 }
 
 .images2 {
@@ -61,6 +65,8 @@ button {
     align-self: center;
     width: 450px;
     height: 450px;
+    box-shadow: 8px 5px 5px rgb(34, 34, 34);
+    border-radius: 10px;
 }
 
 .images3 {
@@ -70,6 +76,8 @@ button {
     align-self: center;
     width: 450px;
     height: 450px;
+    box-shadow: 8px 5px 5px rgb(34, 34, 34);
+    border-radius: 10px;
 }
 
 .images4 {
@@ -79,6 +87,8 @@ button {
     align-self: center;
     width: 450px;
     height: 450px;
+    box-shadow: 8px 5px 5px rgb(34, 34, 34);
+    border-radius: 10px;
 }
 
 .images5 {
@@ -88,6 +98,8 @@ button {
     align-self: center;
     width: 450px;
     height: 450px;
+    box-shadow: 8px 5px 5px rgb(34, 34, 34);
+    border-radius: 10px;
 }
 
 .images6 {
@@ -97,11 +109,14 @@ button {
     align-self: center;
     width: 450px;
     height: 450px;
+    box-shadow: 8px 5px 5px rgb(34, 34, 34);
+    border-radius: 10px;
 }
 
 img {
     width: 450px;
     height: 450px;
+    border-radius: 10px;
 }
 
 .footer {
