@@ -13,7 +13,7 @@ body {
     background-size: 100dvw 100dvh;
     height: 100dvh;
     width: 100dvw;
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 .container {
@@ -22,7 +22,6 @@ body {
     display: grid;
     grid-template-rows: 150px 4fr 20px;
     grid-template-columns: 10px 1fr 10px;
-    row-gap: 5px;
 }
 
 .header {
