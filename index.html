@@ -8,20 +8,47 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">DIRT GIRL PAINT
-        <div class="links">
-            <a href="https://www.instagram.com/dirtgirlpaint/?hl=en/"><button> </button></a>
+        <div class="header">
+            <button class="contact">Contact me</button>
+            <P class="pHead">DIRT GIRL PAINTS</P>
         </div>
-        </div>
-        <div class="images1">
+        <div class="imageContainer">
+            <img src="dgImg/screenprint.jpg" alt="">
             <img src="dgImg/gastank.jpg" alt="">
+            <img src="dgImg/carpaint.jpg" alt="">
+            <img src="dgImg/building.jpg" alt="">
+            <img src="dgImg/woodsign.jpg" alt="">
+            <img src="dgImg/zen.jpg" alt="">
+            <img src="dgImg/Screenshot_20230930_134041_Instagram.jpg" alt="">
+            <img src="dgImg/alchemysign.jpg" alt="">
         </div>
-        <div class="images2"><img src="dgImg/alchemysign.jpg" alt=""></div>
-        <div class="images3"><img src="dgImg/carpaint.jpg" alt=""></div>
-        <div class="images4"><img src="dgImg/screenprint.jpg" alt=""></div>
-        <div class="images5"><img src="dgImg/building.jpg" alt=""></div>
-        <div class="images6"><img src="dgImg/Screenshot_20230930_134041_Instagram.jpg" alt=""></div>
-        <div class="footer">TRINIDAD DESIGNS 2023</div>
+        <div class="dialog">
+            <dialog>
+                <form >
+                    <p>Want to book the Dirt Girl?<br> Send me a brief description of what you need Your name and contact information
+                    <a href="mailto:Dirtgirlproductions@gmail.com">Here</a>
+                    Or visit my <a href="https://www.instagram.com/dirtgirlpaint/">Instagram</a></p>
+                    <button class="closeBtn" value="cancel" formmethod="dialog">Close</button>
+                </form>
+            </dialog>
+        </div>
+        <div class="footer">
+            <p>Background by <a class="bgdLink" href="https://www.freepik.com/free-vector/desert-landscape-background-video-conferencing_9892151.htm#query=western%20background&position=48&from_view=keyword&track=ais">Freepik</a></p>
+            <p>Trinidad Web Design 2023</p>
+            <script>
+                const dialog =document.querySelector('dialog');
+                const contactBtn = document.querySelector('.contact');
+                const closeBtn = document.querySelector('.closeBtn');
+
+                contactBtn.addEventListener("click", ()=> {
+                    dialog.showModal();
+                });
+
+                closeBtn.addEventListener('click', ()=> {
+                    dialog.close();
+                })
+            </script>
+        </div>
     </div>
 </body>
 </html>
