@@ -103,4 +103,7 @@ a {
     color: lightyellow;
 }
 
-
+::backdrop {
+    background-image: url(dgImg/desert.jpg);
+    background-size: cover;
+}
